@@ -5,14 +5,9 @@
 # https://yadm.io/docs/bootstrap#
 
 system_type=$(uname -s)
-repo="git@github.com:FrankFang/dotfiles.git"
 
-echo "Updating the yadm repo origin URL"
-yadm remote set-url origin $repo
+yadm alt
 
-yes | sudo pacman -Syy
-yes | sudo pacman -S zsh
-chsh -s /bin/zsh
 
 if [ "$system_type" = "Darwin" ]; then
 
@@ -32,5 +27,10 @@ if [ "$system_type" = "Darwin" ]; then
     defaults write com.googlecode.iterm2 PrefsCustomFolder "$HOME/.iterm2"
   fi
 
+elif [ "$system_type" = "Linux" ]; then
+
+	yes | sudo pacman -Syy
+	yes | sudo pacman -S zsh
 fi
 
+chsh -s /bin/zsh
