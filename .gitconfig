@@ -1,7 +1,12 @@
 [user]
-	email = ff_online@outlook.com
-	name = ff
+email = ff_online@outlook.com
+name = ff
 [init]
-	defaultBranch = master
+defaultBranch = master
 [core]
-	editor = vim
+editor = vim
+[log]
+decorate = short
+abbrevCommit = true
+[include]
+path = .gitconfig.local
