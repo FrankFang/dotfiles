@@ -1,0 +1,7 @@
+[user]
+	email = ff_online@outlook.com
+	name = ff
+[init]
+	defaultBranch = master
+[core]
+	editor = vim
