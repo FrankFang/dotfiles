@@ -9,6 +9,7 @@ system_type=$(uname -s)
 yadm alt
 
 
+
 if [ "$system_type" = "Darwin" ]; then
 
   # install homebrew if it's missing
@@ -31,6 +32,12 @@ elif [ "$system_type" = "Linux" ]; then
 
 	yes | sudo pacman -Syy
 	yes | sudo pacman -S zsh
+    yes | sudo pacman -S nnn fzf fzy less the_silver_searcher ripgrep
+
 fi
 
-chsh -s /bin/zsh
+corepack enable
+pnpm setup
+pnpm i -g git-open @fsouza/prettierd
+
+# chsh -s /bin/zsh
