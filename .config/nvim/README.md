@@ -1,12 +1,4 @@
-# oh-my-nvim
+# 💤 LazyVim
 
-
-## Key bindings
-
-| key                                           | function         | mode   | dependencies   |
-| --------------------------------------------- | ---------------- | ------ | -------------- |
-| <kbd>leader</kbd> <kbd>k</kbd> <kbd>1</kbd>   | Toggle Tree      |        |                |
-| <kbd>leader</kbd> <kbd>f</kbd> <kbd>f</kbd>   | Search Files     |        |                |
-| <kbd>leader</kbd> <kbd>f</kbd> <kbd>g</kbd>   | Search Content   |        | ag             |
-| <kbd>leader</kbd> <kbd>f</kbd> <kbd>b</kbd>   | Search Buffers   |        |                |
-
+A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
+Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
