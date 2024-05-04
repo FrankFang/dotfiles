@@ -1,0 +1,14 @@
+{
+  "fc": {
+    "prefix": "fc",
+    "body": [
+      "type Props = {}",
+      "export function $1 (props: Props) {",
+      "  return (",
+      "    <div>$1$0</div>",
+      "  )",
+      "}"
+    ],
+    "description": "Functional Component"
+  }
+}

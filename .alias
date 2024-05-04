@@ -16,3 +16,4 @@ alias proxy="export http_proxy='http://127.0.0.1:7890'; export https_proxy='http
 alias unproxy="unset http_proxy; unset https_proxy"
 alias j='cd $(readlink -f $(echo ~/.config/nnn/bookmarks/$(\ls ~/.config/nnn/bookmarks/ | fzf)))'
 alias nv='neovide'
+alias open='xdg-open'

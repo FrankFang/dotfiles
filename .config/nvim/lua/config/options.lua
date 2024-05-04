@@ -8,4 +8,3 @@ if g.neovide then
   opt.linespace = 2
   g.neovide_cursor_vfx_mode = "railgun"
 end
-

@@ -1,0 +1,13 @@
+{
+  "fc": {
+    "prefix": "fc",
+    "body": [
+      "export function $1 () {",
+      "  return (",
+      "    <div>$1$0</div>",
+      "  )",
+      "}"
+    ],
+    "description": "Functional Component"
+  }
+}
